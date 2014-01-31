@@ -1,6 +1,7 @@
 %pylab 
 import numpy as np
 
+#WHY IS IT BUGGY
 f = open('Lumi.2760.csv')
 g = f.readlines()
 f.close()
