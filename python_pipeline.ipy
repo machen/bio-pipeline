@@ -18,6 +18,7 @@ g = f.readlines()
 f.close()
 
 plate_no = 2760
+#What is this plate no for? Why isn't it coded differently?
 
 for idx in range(len(g)):
     plate_str = 'Plate:\t'+str(plate_no)
